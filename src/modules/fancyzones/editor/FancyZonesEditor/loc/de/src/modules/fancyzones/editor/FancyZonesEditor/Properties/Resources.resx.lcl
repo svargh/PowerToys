@@ -18,79 +18,79 @@
       </Item>
       <Item ItemId=";Apply" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Apply]]></Val>
+          <Val><![CDATA[ApplyDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Cancel" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Cancel]]></Val>
+          <Val><![CDATA[CancelDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Choose_Layout" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Choose your layout for this desktop]]></Val>
+          <Val><![CDATA[Choose your layout for this desktopDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Custom" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Custom]]></Val>
+          <Val><![CDATA[CustomDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Custom_Layout_Creator" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Custom layout creator]]></Val>
+          <Val><![CDATA[Custom layout creatorDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Custom_Table_Layout" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Custom table layout creator]]></Val>
+          <Val><![CDATA[Custom table layout creatorDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Edit_Selected_Layout" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Edit selected layout]]></Val>
+          <Val><![CDATA[Edit selected layoutDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Name" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Name]]></Val>
+          <Val><![CDATA[NameDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Note_Custom_Table" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Note: Hold down Shift Key to change orientation of splitter.  To merge zones, select the zones and click "merge".]]></Val>
+          <Val><![CDATA[Note: Hold down Shift Key to change orientation of splitter.  To merge zones, select the zones and click "merge".De]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Save_Apply" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Save and apply]]></Val>
+          <Val><![CDATA[Save and applyDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Show_Space_Zones" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Show space around zones]]></Val>
+          <Val><![CDATA[Show space around zonesDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Space_Around_Zones" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Space around zones]]></Val>
+          <Val><![CDATA[Space around zonesDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";Templates" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Templates]]></Val>
+          <Val><![CDATA[TemplatesDe]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
