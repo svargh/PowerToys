@@ -12,43 +12,55 @@
       <Disp Icon="Str" Disp="true" LocTbl="false" />
       <Item ItemId=";About_ColorPicker.Text" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Not About Color Picker]]></Val>
+          <Val><![CDATA[About Color Picker]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Not About Color Picker]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";About_FancyZones.Text" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Not About FancyZones]]></Val>
+          <Val><![CDATA[About FancyZones]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Not About Color Picker]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";About_FileExplorerPreview.Text" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Not About File Explorer]]></Val>
+          <Val><![CDATA[About File Explorer]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Not About Color Picker]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";About_ImageResizer.Text" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Not About Image Resizer]]></Val>
+          <Val><![CDATA[About Image Resizer]]></Val>
+          <Tgt Cat="Text" Orig="New">
+            <Val><![CDATA[Not About Color Picker]]></Val>
+          </Tgt>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";About_KeyboardManager.Text" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Not About Keyboard Manager]]></Val>
+          <Val><![CDATA[About Keyboard Manager]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";About_PowerLauncher.Text" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Not About PowerToys Run]]></Val>
+          <Val><![CDATA[About PowerToys Run]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
       <Item ItemId=";About_PowerRename.Text" ItemType="0;.resx" PsrId="211" Leaf="true">
         <Str Cat="Text">
-          <Val><![CDATA[Not About Power Rename]]></Val>
+          <Val><![CDATA[About Power Rename]]></Val>
         </Str>
         <Disp Icon="Str" />
       </Item>
