@@ -6,7 +6,8 @@
                 {
                     "SourceFile": "src\\core\\Microsoft.PowerToys.Settings.UI\\Strings\\en-us\\Resources.resw",
                     "CopyOption": "LangIDOnName",
-                    "OutputPath": "src\\core\\Microsoft.PowerToys.Settings.UI\\Strings"
+                    "OutputPath": "src\\core\\Microsoft.PowerToys.Settings.UI\\Strings",
+                    "LclFile": ""
                 }
             ]
         }
