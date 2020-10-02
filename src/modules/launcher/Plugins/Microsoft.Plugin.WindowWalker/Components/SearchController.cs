@@ -143,7 +143,6 @@ namespace Microsoft.Plugin.WindowWalker.Components
                 {
                     List<int> titleMatch = new List<int>();
                     List<int> processMatch = new List<int>();
-
                     if (searchString.SearchText.StartsWith(" ", true, CultureInfo.CurrentCulture))
                     {
                         string trimmedSearchText = searchString.SearchText.Trim();
