@@ -131,6 +131,8 @@ namespace Microsoft.Plugin.WindowWalker.Components
             /// and the shortcut is now being searched
             /// </summary>
             Shortcut,
+
+            FuzzyOrSimple,
         }
     }
 }

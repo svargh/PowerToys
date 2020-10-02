@@ -54,7 +54,7 @@ namespace Microsoft.Plugin.WindowWalker.Components
 
             set
             {
-                searchText = value.ToLower(CultureInfo.CurrentCulture).Trim();
+                searchText = value.ToLower(CultureInfo.CurrentCulture);
             }
         }
 
@@ -108,15 +108,7 @@ namespace Microsoft.Plugin.WindowWalker.Components
             System.Diagnostics.Debug.Print("Syncing WindowSearch result with OpenWindows Model");
 
             List<Window> snapshotOfOpenWindows = OpenWindows.Instance.Windows;
-
-            if (string.IsNullOrWhiteSpace(SearchText))
-            {
-                searchMatches = new List<SearchResult>();
-            }
-            else
-            {
-                searchMatches = await FuzzySearchOpenWindowsAsync(snapshotOfOpenWindows).ConfigureAwait(false);
-            }
+            searchMatches = await FuzzySearchOpenWindowsAsync(snapshotOfOpenWindows).ConfigureAwait(false);
 
             OnSearchResultUpdateEventHandler?.Invoke(this, new SearchResultUpdateEventArgs());
         }
@@ -143,14 +135,26 @@ namespace Microsoft.Plugin.WindowWalker.Components
             List<SearchResult> result = new List<SearchResult>();
             List<SearchString> searchStrings = new List<SearchString>();
 
-            searchStrings.Add(new SearchString(searchText, SearchResult.SearchType.Fuzzy));
+            searchStrings.Add(new SearchString(searchText, SearchResult.SearchType.FuzzyOrSimple));
 
             foreach (var searchString in searchStrings)
             {
                 foreach (var window in openWindows)
                 {
-                    var titleMatch = FuzzyMatching.FindBestFuzzyMatch(window.Title, searchString.SearchText);
-                    var processMatch = FuzzyMatching.FindBestFuzzyMatch(window.ProcessName, searchString.SearchText);
+                    List<int> titleMatch = new List<int>();
+                    List<int> processMatch = new List<int>();
+
+                    if (searchString.SearchText.StartsWith(" ", true, CultureInfo.CurrentCulture))
+                    {
+                        string trimmedSearchText = searchString.SearchText.Trim();
+                        titleMatch = FuzzyMatching.FindBestFuzzyMatch(window.Title, trimmedSearchText);
+                        processMatch = FuzzyMatching.FindBestFuzzyMatch(window.ProcessName, trimmedSearchText);
+                    }
+                    else
+                    {
+                        titleMatch = SimpleMatching.FindMatch(window.Title, searchString.SearchText);
+                        processMatch = SimpleMatching.FindMatch(window.ProcessName, searchString.SearchText);
+                    }
 
                     if ((titleMatch.Count != 0 || processMatch.Count != 0) &&
                                 window.Title.Length != 0)

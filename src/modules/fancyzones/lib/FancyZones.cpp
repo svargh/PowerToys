@@ -31,7 +31,7 @@ enum class DisplayChangeType
 
 namespace
 {
-    constexpr int CUSTOM_POSITIONING_LEFT_TOP_PADDING = 16;
+    constexpr int CUSTOM_POSITIONING_LEFT_TOP_PADDING = 5;
 }
 
 // Non-localizable strings

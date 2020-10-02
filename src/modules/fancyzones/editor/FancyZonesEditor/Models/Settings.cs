@@ -454,7 +454,7 @@ namespace FancyZonesEditor
                     // Default or there is no active layout on current device
                     ActiveZoneSetLayoutType = LayoutType.Focus;
                     _showSpacing = true;
-                    _spacing = 16;
+                    _spacing = 5;
                     _zoneCount = 3;
                     _sensitivityRadius = 20;
                 }

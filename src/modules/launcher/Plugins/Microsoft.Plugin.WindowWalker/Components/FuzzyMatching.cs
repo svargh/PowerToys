@@ -10,10 +10,10 @@ using System.Linq;
 
 namespace Microsoft.Plugin.WindowWalker.Components
 {
-    /// <summary>
-    /// Class housing fuzzy matching methods
-    /// </summary>
-    public static class FuzzyMatching
+        /// <summary>
+        /// Class housing fuzzy matching methods
+        /// </summary>
+        public static class FuzzyMatching
     {
         /// <summary>
         /// Finds the best match (the one with the most
